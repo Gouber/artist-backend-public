@@ -2,7 +2,7 @@ package com.example.verisart.artistapp.config;
 
 
 public enum Bucket {
-    ARTIST_BUCKET("artist-storage-spring");
+    ARTIST_BUCKET("<insert_bucket_name_here>");
     private final String bucketName;
 
     Bucket(String s) {
